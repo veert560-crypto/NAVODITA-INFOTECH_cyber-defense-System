@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cyber Defense System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>🛡 Cyber Defense System</h2>
+    <p class="sub">Client-Side Security Demonstration Tool</p>
+
+    <input type="text" id="username" placeholder="Username">
+
+   <input type="password" id="password" onkeyup="checkPassword()">
+
+
+    <div class="meter">
+        <div id="strengthBar"></div>
+    </div>
+    <p id="strengthText"></p>
+
+    <button onclick="login()">Secure Login</button>
+
+    <p id="attempts"></p>
+
+    <div class="logs">
+        <h4>🔎 Security Logs</h4>
+        <ul id="logList"></ul>
+    </div>
+
+    <p class="note">
+        ⚠ Educational demo – no real credentials are stored.
+    </p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

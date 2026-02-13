@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(to right, #141e30, #243b55);
+    font-family: Arial;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #1f2a40;
+    width: 380px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px black;
+}
+
+h2 {
+    text-align: center;
+}
+
+.sub {
+    text-align: center;
+    font-size: 13px;
+    color: #ccc;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #00c6ff;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.meter {
+    background: #555;
+    height: 8px;
+    border-radius: 5px;
+}
+
+#strengthBar {
+    height: 8px;
+    width: 0%;
+    border-radius: 5px;
+}
+
+.logs {
+    background: #111;
+    padding: 10px;
+    margin-top: 12px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.note {
+    font-size: 11px;
+    color: #ff8080;
+    margin-top: 8px;
+}
